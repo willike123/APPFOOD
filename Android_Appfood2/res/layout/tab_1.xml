@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+               <Spinner
+                   android:id="@+id/spinner1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1" 
+                   android:prompt="@string/spin"
+                   android:spinnerMode="dialog"
+                   
+                   />
+
+              <Spinner
+                   android:id="@+id/spinner2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1" 
+                   android:prompt="@string/spin"
+                   android:spinnerMode="dialog"
+                   />
+       <!--      <SearchView
+               android:id="@+id/searchView1"
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:layout_centerHorizontal="true"
+               android:layout_gravity="right" >
+
+    	</SearchView>
+    	-->
+
+          <!--     <Button
+                  android:id="@+id/button1"
+                  android:layout_width="50dp"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="4dp"
+                  android:background="@drawable/custombutton3"
+                  android:drawableLeft="@drawable/search"
+                  android:paddingLeft="8dp"
+                  android:text="" />
+ -->
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Không có kết nối internet"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#E95145"
+        android:textStyle="bold" />
+  
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="horizontal"
+        android:background="@android:color/darker_gray" >
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

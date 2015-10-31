@@ -1,0 +1,147 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgroup"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android_designt.dangnhap" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center"
+        android:src="@drawable/login" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/textview1"
+        android:drawableLeft="@drawable/drauser"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="UserName"
+        android:paddingLeft="5dp"
+        android:text=""
+         android:textColorHint="#FBFBFB"
+        android:textColor="#FBFBFB"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText2"
+         android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/textview1"
+        android:ems="10"
+        android:hint="Password"
+        android:drawablePadding="10dp"
+        android:textColorHint="#FBFBFB" 
+        android:drawableLeft="@drawable/drapass"
+        android:paddingLeft="5dp"
+        android:textColor="#FBFBFB"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" >>
+
+ </EditText>
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Lưu thông tin đăng nhập"
+        android:textColor="#FBFBFB"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+    >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button1"
+            android:text="Đăng Nhập"
+            android:textColor="#FBFBFB"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button1"
+            android:text="Đăng Ký"
+            android:textColor="#FBFBFB"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Or"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FBFBFB" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button2"
+        android:drawableLeft="@drawable/facebook"
+        android:paddingLeft="5dp"
+        android:text="  Đăng Nhập Bằng Facebook"
+        android:textColor="#FBFBFB"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Trạng Thái"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF771F" />
+        
+</LinearLayout>

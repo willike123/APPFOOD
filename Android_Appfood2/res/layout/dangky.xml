@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/backgroup">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="ĐĂNG KÝ"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FF8D08"
+            android:textSize="40sp"
+            android:textStyle="normal|bold|italic"
+            android:typeface="serif" />
+
+    <EditText
+       android:id="@+id/namedangkt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/textview1"
+        android:drawableLeft="@drawable/drauser"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="UserName"
+        android:paddingLeft="5dp"
+        android:textColorHint="#FBFBFB"
+        android:textColor="#FBFBFB"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" > >
+ </EditText>
+     <EditText
+       android:id="@+id/emaildangky"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+       android:drawablePadding="10dp"
+        android:background="@drawable/textview1"
+        android:drawableLeft="@drawable/draemail"
+       
+        android:ems="10"
+        android:hint="Email"
+        android:paddingLeft="5dp"
+        android:textColorHint="#FBFBFB" 
+        android:textColor="#FBFBFB"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" >>
+ </EditText>
+  <EditText
+       android:id="@+id/passdangky"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+      	android:drawablePadding="10dp"
+        android:background="@drawable/textview1"
+        android:drawableLeft="@drawable/drapass"
+        android:ems="10"
+        android:hint="Pass"
+        android:paddingLeft="5dp"
+        android:textColorHint="#FBFBFB" 
+        android:textColor="#FBFBFB"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" >>
+ </EditText>
+  <EditText
+       android:id="@+id/pass1dangky"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+      	android:drawablePadding="10dp"
+        android:background="@drawable/textview1"
+        android:drawableLeft="@drawable/drapass"
+        android:ems="10"
+        android:hint="Nhập Lại Pass"
+        android:paddingLeft="5dp"
+        android:textColorHint="#FBFBFB" 
+        android:textColor="#FBFBFB"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" >>
+ </EditText>
+
+  <CheckBox
+      android:id="@+id/checkBox1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:text="Check Login"
+      android:textColorLink="#FBFBFB"
+    
+      android:textColor="#FBFBFB"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" 
+        android:checked="true"/>
+
+      
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button1"
+            android:text="Đăng ký"
+            android:textColor="#FBFBFB"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button2"
+            android:text="Hủy"
+            android:textColor="#FBFBFB"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Trạng Thái"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF771F" />
+
+</LinearLayout>
